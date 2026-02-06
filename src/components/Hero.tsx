@@ -56,11 +56,11 @@ export default function Hero() {
 
         <div className="relative z-10 flex flex-col items-center gap-4 sm:gap-6 text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal leading-[90%] tracking-[-0.03em] text-black mix-blend-exclusion max-w-2xl">
-            Ускорьте ваш маркетинг
+            FunMember
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl leading-[160%] text-black max-w-2xl px-4">
-            Дайте вашей команде свободу творить, а не настраивать. Создавайте, запускайте и масштабируйте цифровые продукты с уверенностью и скоростью.
+            Команда, которая создаёт удивительные проекты. Присоединяйся к нашему сообществу и следи за новостями!
           </p>
 
           <AnimatePresence initial={false}>
@@ -83,7 +83,7 @@ export default function Hero() {
                   onClick={handleExpand}
                   className="h-15 px-6 sm:px-8 py-3 text-lg sm:text-xl font-regular text-[#E3E3E3] tracking-[-0.01em] relative"
                 >
-                  Запросить демо
+                  Перейти в Telegram
                 </motion.button>
               </motion.div>
             )}
@@ -133,7 +133,7 @@ export default function Hero() {
               >
                 <div className="flex-1 flex flex-col justify-center space-y-3 w-full">
                   <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-white leading-none tracking-[-0.03em]">
-                    Связаться с нами
+                    Присоединяйся к FunMember
                   </h2>
 
                   <div className="space-y-4 sm:space-y-6 pt-4">
@@ -150,7 +150,7 @@ export default function Hero() {
                       </div>
                       <div>
                         <p className="text-sm sm:text-base text-white leading-[150%]">
-                          Узнайте, как FlowPulse может трансформировать ваш бизнес с индивидуальными решениями и гибкими тарифами.
+                          Подпишись на наш телеграм-канал и будь в курсе всех новостей команды FunMember.
                         </p>
                       </div>
                     </div>
@@ -172,27 +172,21 @@ export default function Hero() {
                       </div>
                       <div>
                         <p className="text-sm sm:text-base text-white leading-[150%]">
-                          Убедитесь лично, как платформа FlowPulse ускоряет разработку и приносит результаты.
+                          Получай эксклюзивный контент, обновления и общайся с единомышленниками.
                         </p>
                       </div>
                     </div>
                   </div>
 
                   <div className="pt-6 sm:pt-8 mt-6 sm:mt-8 border-t border-white/20">
-                    <p className="text-lg sm:text-xl lg:text-2xl text-white leading-[150%] mb-4">
-                      FlowPulse позволяет нашей команде работать быстрее и выпускать продукты с уверенностью.
-                    </p>
-                    <div className="flex items-center gap-3 sm:gap-4">
-                      <img
-                        src="https://cdn.poehali.dev/templates/fluid-cta-ru/anna-avatar.jpg"
-                        alt="Анна Смирнова"
-                        className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover"
-                      />
-                      <div>
-                        <p className="text-base sm:text-lg lg:text-xl text-white">Анна Смирнова</p>
-                        <p className="text-sm sm:text-base text-white/70">Директор по маркетингу, TechVision</p>
-                      </div>
-                    </div>
+                    <a
+                      href="https://t.me/Funmembers"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block px-8 py-4 bg-white text-[#004FE5] text-lg font-medium rounded-full hover:bg-white/90 transition-colors"
+                    >
+                      Открыть канал
+                    </a>
                   </div>
                 </div>
 
